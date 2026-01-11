@@ -9,7 +9,7 @@ Pytorch Implementation of paper:
 Dynamic hand gestures encode rich physiological and behavioral characteristics, providing a promising biometric trait for reliable authentication. Existing studies primarily improve video-based gesture authentication by designing network architectures, constructing behavioral pseudo-modalities, and optimizing loss functions. Following this paradigm, PB-Net adopts a decoupled analysis and complementary fusion strategy for the two characteristics, achieving competitive performance. However, its modeling of fine-grained identity characteristics remains limited. In this work, we revisit PB-Net and propose PB-Net v2 by rethinking the modeling requirements of physiological and behavioral characteristics. Specifically, we refine the data-tailoring strategy, including behavioral pseudo-modality design, to reduce redundancy while preserving richer identity information. We then enhance the physiological and behavioral branches to extract more complementary spatiotemporal physiological features and more stable behavioral representations, respectively. Moreover, we improve the feature fusion module to mitigate branch-specific bias while facilitating reliability-aware feature fusion. Extensive experiments on the SCUT-DHGA dataset demonstrate the effectiveness of the proposed improvements. PB-Net v2 consistently achieves the lowest equal error rates among 21 state-of-the-art models under four evaluation protocols.
 <div align="center">
  <p align="center">
-  <img src="https://raw.githubusercontent.com/SWJTU-GDS/PB-Net-v2/master/img/PBNet-v2.png" />
+  <img src="https://raw.githubusercontent.com/SWJTU-GDS/PB-Net-v2/refs/heads/main/img/PBNet-v2.png" />
  </p>
 </div>
 
@@ -20,7 +20,7 @@ To comprehensively evaluate the effectiveness of PB-Net v2, we compare it with 2
 
  <div align="center">
  <p align="center">
-  <img src="https://raw.githubusercontent.com/SCUT-BIP-Lab/PB-Net-v2/master/img/sota_comparison.png" />
+  <img src="https://raw.githubusercontent.com/SWJTU-GDS/PB-Net-v2/refs/heads/main/img/sota_comparison.png" />
  </p>
 </div>
 
