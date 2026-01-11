@@ -13,7 +13,7 @@ Dynamic hand gestures encode rich physiological and behavioral characteristics, 
  </p>
 </div>
 
-Overall architecture of PB-Net v2. C1 denotes the Conv1 layer of ResNet, and LxBy indicates the y-th Block in the x-th ResNet Layer. TC represents Temporal Convolution, while TM denotes Temporal Max Pooling. Norm indicates L2 normalization. $\mathcal{L}_1$-$\mathcal{L}_3$ correspond to three AMSoftmax loss functions.
+Overall architecture of PB-Net v2. C1 denotes the Conv1 layer of ResNet, and LxBy indicates the y-th Block in the x-th ResNet Layer. TC represents Temporal Convolution, while TM denotes Temporal Max Pooling. Norm indicates L2 normalization. $\mathcal{L}_1$ to $\mathcal{L}_3$ correspond to three AMSoftmax loss functions.
 
 ## Comparisons with SOTAs
 To comprehensively evaluate the effectiveness of PB-Net v2, we compare it with 21 SOTA video understanding models on the SCUT-DHGA dataset. The performance of some representative models are shown in the following figure. The EERs shown in the figure are all average values over six test configurations on the cross session.
